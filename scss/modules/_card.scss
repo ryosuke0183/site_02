@@ -1,0 +1,119 @@
+@use '../forwards' as *;
+
+.card {
+    padding: 10px 10px 30px;
+    background-color: white;
+
+    &__img-wrapper {
+        margin-bottom: 25px;
+    }
+
+    &__h3 {
+        margin-bottom: 25px;
+        @include font(base, bold);
+    }
+
+    &__details {
+        margin-bottom: 25px;
+    }
+
+    &__dl {
+        display: flex;
+
+        margin-bottom: 10px;
+    }
+
+    &__dt {
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 10%;
+        min-width: 80px;
+        margin-right: 8px;
+        color: $cMain;
+        @include font(base, bold);
+
+        &:after {
+            content: ':';
+            display: inline-block;
+            color: $cMain;
+            @include font(base, bold);                
+        }
+    }
+
+    &__dd {
+        flex: 1 0 0;
+        @include font(base, medium);
+
+        &>a {
+            word-break: break-all;
+        }
+    }
+
+    &__category {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+    }
+
+    &__category-list {
+        margin-right: 7px;
+        margin-bottom: 7px;
+        padding: 10px 18px;
+        font-size: rem(14px);
+        @include font(base, bold);
+        text-align: center;
+        border: 1px solid $cBorder1;
+        border-radius: 100vh;
+        line-height: 1;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        i {
+            margin-left: 4px;
+            color: $cMain;
+        }
+    }
+
+    &__map {
+        display: inline-block;
+        padding: 10px 18px;
+        font-size: rem(14px);
+        @include font(base, bold);
+        border: 1px solid $cText;
+        border-radius: 100vh;
+        line-height: 1;
+
+        &>i {
+            margin-left: 8px;
+        }
+    }
+}
+
+.card-02 {
+    text-align: center;
+
+    &__img-wrapper {
+        margin-bottom: 15px;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__label {
+        display: inline-block;
+        margin-bottom: 10px;
+        padding: 8px 10px;
+        @include font(base, bold);
+        font-size: rem(14px);
+        border: 1px solid $cText;
+        border-radius: 15px 0 15px 0;
+        text-align: center;
+    }
+
+    &__h4 {
+        @include font(base, bold);
+    }
+}

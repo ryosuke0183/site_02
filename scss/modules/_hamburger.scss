@@ -1,0 +1,36 @@
+@use '../forwards' as *;
+
+.hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    background-color: #b30001;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2000;
+
+    @include mediaMin(drawer) {
+        display: none;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 12px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__line {
+        display: block;
+        width: 20px;
+        height: 2px;
+        border-radius: 25px;
+        background-color: white;
+    }
+}

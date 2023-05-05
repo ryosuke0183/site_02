@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE LAMB 羊で繋がるプロジェクト</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Kosugi+Maru&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="./js/index.js"></script>
+</head>
+
+<body class="index">
+    <header class="header">
+        <div class="header__inner">
+            <!-- <h1 class="logo">
+                <img src="" alt="羊で繋がるプロジェクト" class="logo__img">
+            </h1> -->
+            <h2 class="header__title">羊で繋がるプロジェクト</h2>
+            <nav class="nav">
+                <ul class="nav__lists">
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">XXジンギスカン</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">歴史と文化</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">飲食店・販売店情報</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">ふるさと納税</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="nav__link">団体情報</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <button type="button" class="hamburger">
+            <div class="hamburger__wrapper">
+                <span class="line1 hamburger__line"></span>
+                <span class="line2 hamburger__line"></span>
+            </div>
+        </button>
+        <div class="mv">
+            <div class="circle-text mv__circle-text">
+                <p class="circle-text__text">JUICY MEAT I LIKE IT NICE BEEF PORK CHIKEN</p>
+            </div>
+            <ul class="mv__lists">
+                <li class="mv__list">
+                    <picture class="mv__picture">
+                        <source class="mv__source mv__img" media="(max-width: 575px)" srcset="./assets/images/mv/main_01.jpg">
+                        <img src="./assets/images/mv/main_pc_01.jpg" alt="" class="mv__img">
+                    </picture>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <div class="about__inner">
+                <div class="about__img-wrapper">
+                    <img src="./assets/images/top/sec-01_01.png" alt="" class="about__img">
+                </div>
+                <div class="about__wrapper">
+                    <h2 class="h2 about__h2">
+                        <p class="h2__main">XXジンギスカン</p>
+                        <p class="h2__sub">ABOUT</p>
+                    </h2>
+                    <p class="about__body">
+                        羊肉の生産国も驚く地域が東北にはありました。<br>
+                        <br>
+                        岩手県の内陸部、山々に囲まれた盆地にある遠野市。
+                        全国有数の羊肉の消費量を誇り、人が集えばジンギスカンを食べる、そんな文化が根付く町です。<br>
+                        <br>
+                        円形の鍋を囲んで食べれば、皆笑顔になるおいしさ。
+                        遠野ジンギスカンの魅力をご紹介します。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="feature">
+            <h2 class="feature__h2">
+                <p class="feature__h2-text">3つの特徴</p>
+                <div class="scroll-text feature__scroll-text">
+                    <p class="scroll-text__cont">FEATURE FEATURE FEATURE FEATURE FEATURE FEATURE FEATURE FEATURE
+                        FEATURE FEATURE</p>
+                    <p class="scroll-text__cont">FEATURE FEATURE FEATURE FEATURE FEATURE FEATURE FEATURE FEATURE
+                        FEATURE FEATURE</p>
+                </div>
+            </h2>
+            <div class="feature__inner">
+                <div class="feature__cont">
+                    <div class="feature__img-wrapper">
+                        <img src="./assets/images/top/sec-02_01.jpg" alt="" class="feature__img">
+                    </div>
+                    <div class="feature__body">
+                        <h3 class="feature__h3">
+                            <p class="feature__h3-sub">Feature 01</p>
+                            <p class="feature__h3-main">肉へのこだわり</p>
+                        </h3>
+                        <p class="feature__text">
+                            ジンギスカン用の羊肉は、ラム（仔羊の肉）を主に使用します。
+                            羊肉はオーストラリアやニュージーランドからチルド（冷蔵）状態で輸送され、
+                            その日その時使う分を、職人が手切りで筋や余分な脂身を除去しています。
+                            適切なカットがされているからこそ、
+                            臭みはなくミルキーな旨味が口いっぱいに広がります。
+                        </p>
+                        <div class="feature__point">POINT</div>
+                        <h4 class="feature__h4">👉遠野ジンギスカンといえば、生ラム肩ロース</h4>
+                        <p class="feature__point-text">
+                            「ラム」は生後1年未満の仔羊の肉を指します。
+                            柔らかく、羊特有の臭いやクセが少ないお肉です。
+                            遠野ジンギスカンの主流はラムで、羊肉を食べ慣れていない方にもオススメ。
+                            その肩ロースは一頭の仔羊からごくわずかしか取れない希少部位。
+                            肉と脂とのバランスのとれた柔らかさが特徴です。
+                            高級な部位にもかかわらず、実は国内では、ここ遠野市で多く消費されています。
+                            ぜひ一度味わってみてください。
+                        </p>
+                    </div>
+                    <!-- .feature__body -->
+                </div>
+                <!-- .feature__cont -->
+                <div class="feature__cont feature__reverse">
+                    <div class="feature__img-wrapper">
+                        <img src="./assets/images/top/sec-02_02_01.jpg" alt="" class="feature__img feature__main-img">
+                        <img src="./assets/images/top/sec-02_02_02.jpg" alt="" class="feature__sub-img">
+                    </div>
+                    <div class="feature__body">
+                        <h3 class="feature__h3">
+                            <p class="feature__h3-sub">Feature 02</p>
+                            <p class="feature__h3-main">タレへのこだわり</p>
+                        </h3>
+                        <p class="feature__text">
+                            遠野ジンギスカンは、肉に下味を付けず、焼いた肉にタレを後付けするのが主流です。
+                            タレは既製品ではなく、自家製を作るのが各店のこだわり。
+                            タレの味わいは各店によって異なり、その作り方は門外不出です。
+                            試行錯誤して開発されたタレは羊肉のおいしさをさらに際立たせます。
+                            ちなみに遠野の人は、「私は〇〇推し！」と各店のタレの違いも語れるほどです。
+                        </p>
+                        <div class="feature__body-img-wrapper">
+                            <img src="./assets/images/top/sec-02_02_02.jpg" alt="" class="feature__body-img">
+                        </div>
+                    </div>
+                    <!-- .feature__body -->
+                </div>
+                <!-- .feature__cont -->
+                <div class="feature__cont">
+                    <div class="feature__img-wrapper">
+                        <img src="./assets/images/top/sec-02_03_01.jpg" alt="" class="feature__img feature__main-img">
+                        <img src="./assets/images/top/sec-02_03_02.jpg" alt="" class="feature__sub-img">
+                    </div>
+                    <div class="feature__body">
+                        <h3 class="feature__h3">
+                            <p class="feature__h3-sub">Feature 03</p>
+                            <p class="feature__h3-main">遠野の食材と一緒に楽しむ</p>
+                        </h3>
+                        <p class="feature__text">
+                            遠野ジンギスカンを食べる際は、遠野産のお米や野菜、お酒を合わせて召し上がってください。
+                            遠野市は標高の高い山々に囲まれた盆地で、寒暖の差が大きく、みずみずしい作物が育ちます。
+                            また、日本酒やビール、どぶろく、ワインなどお酒も豊富。
+                            豊かな食材と一緒に遠野ジンギスカンを楽しみましょう。
+                        </p>
+                        <div class="feature__body-img-wrapper">
+                            <img src="./assets/images/top/sec-02_03_02.jpg" alt="" class="feature__body-img">
+                        </div>
+                    </div>
+                    <!-- .feature__body -->
+                </div>
+                <!-- .feature__cont -->
+            </div>
+            <!-- .feature__inner -->
+        </section>
+        <section class="gallery">
+            <div class="gallery__row gallery__row-01">
+                <ul class="gallery__lists">
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_01.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_02.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_03.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_04.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                </ul>
+                <ul class="gallery__lists">
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_01.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_02.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_03.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_04.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                </ul>
+            </div>
+            <div class="gallery__row gallery__row-02">
+                <ul class="gallery__lists">
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_05.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_06.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_07.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_08.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                </ul>
+                <ul class="gallery__lists">
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_05.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_06.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_07.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                    <li class="gallery__list">
+                        <img src="./assets/images/top/sec-03_08.jpg" alt="サンプル画像" class="gallery__img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="shop">
+            <div class="shop__inner">
+                <h2 class="h2 shop__h2">
+                    <p class="h2__main">飲食店・販売店情報</p>
+                    <p class="h2__sub">SHOP</p>
+                </h2>
+                <p class="shop__para">
+                    XX市内のジンギスカンスポットを紹介します。
+                </p>
+                <div class="shop__slider">
+                    <ul class="shop__slider-lists">
+                        <li class="shop__card card">
+                            <div class="card__img-wrapper">
+                                <img src="./assets/images/top/sec-04_01.jpg" alt="" class="card__img">
+                            </div>
+                            <h3 class="card__h3">XX商店(ジンギスカンのYYY)</h3>
+                            <div class="card__details">
+                                <dl class="card__dl">
+                                    <dt class="card__dt">営業時間</dt>
+                                    <dd class="card__dd">10時00分~19時00分/木曜定休</dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">HP</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">https://www.xxxx.jp</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">住所</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">岩手県遠野市XXX00-00</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">TEL</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">0000-000-000</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">駐車場</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">あり</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <ul class="card__category">
+                                <li class="card__category-list">
+                                    飲食<i class="fa-regular fa-circle"></i>
+                                </li>
+                                <li class="card__category-list">
+                                    販売<i class="fa-regular fa-circle"></i>
+                                </li>
+                                <li class="card__category-list">
+                                    通販<i class="fa-regular fa-circle"></i>
+                                </li>
+                            </ul>
+                            <a href="" class="card__map" target="_blank" rel="noopenner nofollow">
+                                Google maps<i class="fa-solid fa-map-location-dot"></i>
+                            </a>
+                        </li>
+                        <li class="shop__card card">
+                            <div class="card__img-wrapper">
+                                <img src="./assets/images/top/sec-04_01.jpg" alt="" class="card__img">
+                            </div>
+                            <h3 class="card__h3">XX商店(ジンギスカンのYYY)</h3>
+                            <div class="card__details">
+                                <dl class="card__dl">
+                                    <dt class="card__dt">営業時間</dt>
+                                    <dd class="card__dd">10時00分~19時00分/木曜定休</dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">HP</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">https://www.xxxx.jp</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">住所</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">岩手県遠野市XXX00-00</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">TEL</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">0000-000-000</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">駐車場</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">あり</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <ul class="card__category">
+                                <li class="card__category-list">
+                                    飲食<i class="fa-regular fa-circle"></i>
+                                </li>
+                                <li class="card__category-list">
+                                    販売<i class="fa-regular fa-circle"></i>
+                                </li>
+                                <li class="card__category-list">
+                                    通販<i class="fa-regular fa-circle"></i>
+                                </li>
+                            </ul>
+                            <a href="" class="card__map" target="_blank" rel="noopenner nofollow">
+                                Google maps<i class="fa-solid fa-map-location-dot"></i>
+                            </a>
+                        </li>
+                        <li class="shop__card card">
+                            <div class="card__img-wrapper">
+                                <img src="./assets/images/top/sec-04_01.jpg" alt="" class="card__img">
+                            </div>
+                            <h3 class="card__h3">XX商店(ジンギスカンのYYY)</h3>
+                            <div class="card__details">
+                                <dl class="card__dl">
+                                    <dt class="card__dt">営業時間</dt>
+                                    <dd class="card__dd">10時00分~19時00分/木曜定休</dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">HP</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">https://www.xxxx.jp</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">住所</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">岩手県遠野市XXX00-00</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">TEL</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">0000-000-000</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">駐車場</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">あり</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <ul class="card__category">
+                                <li class="card__category-list">
+                                    飲食<i class="fa-regular fa-circle"></i>
+                                </li>
+                                <li class="card__category-list">
+                                    販売<i class="fa-regular fa-circle"></i>
+                                </li>
+                                <li class="card__category-list">
+                                    通販<i class="fa-regular fa-circle"></i>
+                                </li>
+                            </ul>
+                            <a href="" class="card__map" target="_blank" rel="noopenner nofollow">
+                                Google maps<i class="fa-solid fa-map-location-dot"></i>
+                            </a>
+                        </li>
+                        <li class="shop__card card">
+                            <div class="card__img-wrapper">
+                                <img src="./assets/images/top/sec-04_01.jpg" alt="" class="card__img">
+                            </div>
+                            <h3 class="card__h3">XX商店(ジンギスカンのYYY)</h3>
+                            <div class="card__details">
+                                <dl class="card__dl">
+                                    <dt class="card__dt">営業時間</dt>
+                                    <dd class="card__dd">10時00分~19時00分/木曜定休</dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">HP</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">https://www.xxxx.jp</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">住所</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">岩手県遠野市XXX00-00</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">TEL</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">0000-000-000</a>
+                                    </dd>
+                                </dl>
+                                <dl class="card__dl">
+                                    <dt class="card__dt">駐車場</dt>
+                                    <dd class="card__dd">
+                                        <a href="" target="_blank" rel="noopenner nofollow">あり</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <ul class="card__category">
+                                <li class="card__category-list">
+                                    飲食<i class="fa-regular fa-circle"></i>
+                                </li>
+                                <li class="card__category-list">
+                                    販売<i class="fa-regular fa-circle"></i>
+                                </li>
+                                <li class="card__category-list">
+                                    通販<i class="fa-regular fa-circle"></i>
+                                </li>
+                            </ul>
+                            <a href="" class="card__map" target="_blank" rel="noopenner nofollow">
+                                Google maps<i class="fa-solid fa-map-location-dot"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="shop__arrow">
+                    <button class="shop__arrow-btn shop__arrow-left">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                    </button>
+                    <button class="shop__arrow-btn shop__arrow-right">
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="bg">
+            <div class="bg__inner"></div>
+        </section>
+        <section class="info">
+            <div class="info__inner">
+                <div class="info__left-wrapper">
+                    <h2 class="h2 info__h2">
+                        <p class="h2__main">飲食店・販売店情報</p>
+                        <p class="h2__sub">SHOP</p>
+                    </h2>
+                    <p class="info__para">
+                        遠野ジンギスカンは、ご自宅でもお楽しみ
+                        いただけるよう遠野市ふるさと納税の
+                        返礼品としてもご用意しております。
+                    </p>
+                    <ul class="info__link">
+                        <li class="info__link-list">
+                            <a href="" target="_blank" rel="noopenner nofollow" class="info__link-link">ふるさとチョイス</a>
+                        </li>
+                        <li class="info__link-list">
+                            <a href="" target="_blank" rel="noopenner nofollow" class="info__link-link">ふるさと納税</a>
+                        </li>
+                        <li class="info__link-list">
+                            <a href="" target="_blank" rel="noopenner nofollow" class="info__link-link">さとふる</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info__right-wrapper">
+                    <h3 class="info__h3">ふるさと納税で遠野ジンギスカンを味わおう</h3>
+                    <p class="info__para2">商品の一例</p>
+                    <ul class="info__example">
+                        <li class="card-02 info__example-list">
+                            <div class="card-02__img-wrapper">
+                                <img src="./assets/images/top/sec-06_01.jpg" alt="サンプル画像" class="card-02__img">
+                            </div>
+                            <p class="card-02__label">YY商店</p>
+                            <h4 class="card-02__h4">ジンギスカン鍋とラムカタロース</h4>
+                        </li>
+                        <li class="card-02 info__example-list">
+                            <div class="card-02__img-wrapper">
+                                <img src="./assets/images/top/sec-06_02.jpg" alt="サンプル画像" class="card-02__img">
+                            </div>
+                            <p class="card-02__label">食肉センター</p>
+                            <h4 class="card-02__h4">ホップ豚</h4>
+                        </li>
+                        <li class="card-02 info__example-list">
+                            <div class="card-02__img-wrapper">
+                                <img src="./assets/images/top/sec-06_03.jpg" alt="サンプル画像" class="card-02__img">
+                            </div>
+                            <p class="card-02__label">羊〇・林</p>
+                            <h4 class="card-02__h4">生ラム肩ロース</h4>
+                        </li>
+                        <li class="card-02 info__example-list">
+                            <div class="card-02__img-wrapper">
+                                <img src="./assets/images/top/sec-06_04.jpg" alt="サンプル画像" class="card-02__img">
+                            </div>
+                            <p class="card-02__label">チンギスハーン</p>
+                            <h4 class="card-02__h4">バケツジンギスカン</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="company">
+            <div class="company__inner">
+                <div class="company__wrapper">
+                    <h2 class="h2 company__h2">
+                        <p class="h2__main">飲食店・販売店情報</p>
+                        <p class="h2__sub">SHOP</p>
+                    </h2>
+                    <div class="company__details">
+                        <dl class="company__dl">
+                            <dt class="company__dt">団体名</dt>
+                            <dd class="company__dd">ONE LAMB 羊で繋がるプロジェクト</dd>
+                        </dl>
+                        <dl class="company__dl">
+                            <dt class="company__dt">団体概要</dt>
+                            <dd class="company__dd">
+                                XXジンギスカン関連事業者の有志によって立ち上がったプロジェクト。
+                                XX市民にとって、XXジンギスカンは日々の生活の中にある“当たり前の日常”です。
+                                <br>
+                                本プロジェクトの企画や広報を通じて、XXジンギスカンのこだわり抜かれた
+                                美味しさや、人の和を生み出すこの文化が、全国の方々にとっても“新しい当たり前”
+                                になることを目指します。
+                            </dd>
+                        </dl>
+                        <dl class="company__dl">
+                            <dt class="company__dt">事務局</dt>
+                            <dd class="company__dd">株式会社XXふるさと商社</dd>
+                        </dl>
+                    </div>
+                    <!-- .company__details -->
+                </div>
+                <!-- .company__inner -->
+                <div class="company__btn-wrapper">
+                    <a href="" class="btn btn--font">メールでお問い合わせ</a>
+                </div>
+                <div class="scroll-text company__bg">
+                    <p class="scroll-text__cont">ONE LAMB</p>
+                </div>
+        </section>
+        <small class="copyright">2023 - 羊で繋がるプロジェクト</small>
+    </main>
+</body>
+
+</html>

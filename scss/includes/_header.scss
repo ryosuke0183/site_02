@@ -1,0 +1,49 @@
+@use '../forwards' as *;
+
+.header {
+    height: 100vh;
+    position: relative;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+
+        @include mediaMin(drawer) {
+            padding: 30px 40px;
+        }
+    }
+
+    &__title {
+        color: white;
+        @include font(base, medium);
+        font-size: 34px;
+        writing-mode: vertical-rl;
+    }
+}
+
+.mv {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+    &__circle-text {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 70%);
+    }
+
+    &__lists,
+    &__list,
+    &__picture,
+    &__img {
+        height: 100%;
+        object-fit: cover;
+    }
+}

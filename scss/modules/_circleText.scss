@@ -1,0 +1,33 @@
+@use '../forwards' as *;
+
+.circle-text {
+
+    &__text {
+        width: 800px;
+        height: 800px;
+        max-width: 100%;
+        text-align: center;
+        color: white;
+        
+        @include mediaMin(md) {
+            width: 1000px;
+            height: 1000px;
+        }
+
+        span {
+            display: inline-block;
+            @include font(accent, bold);
+            position: absolute;
+            top: 0;
+            left: calc(50% - 32px);
+            width: 64px;
+            height: 400px;
+            font-size: rem(64px);
+            transform-origin: center bottom;
+            
+            @include mediaMin(md) {
+                height: 500px;
+            }
+        }
+    }
+}
